@@ -239,7 +239,7 @@ ${description}
     },
     ANIMOMOVIE: function (title,description,plot){
         return`
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
       
 ✨ ${title}  
 ⭐ Description:${description} 
