@@ -3,14 +3,11 @@ const packageJson = require("./package.json"); // Get package details
 //=====DONT CHANGE ANYTHING IN THIS ${}......=============
 module.exports = {
     BOTNAME:"© 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚",
-    OWNERNAME:"MR.RASHMIKA",
-    OWNERNUMBER:"94717775628",
+    OWNERNAME:"MR.𝚃𝙷𝙰𝚁𝚄𝚆𝙰",
+    OWNERNUMBER:"94762862143",
     FOOTER:`
-> QUEEN ANJU XPRO
-> Developed by Mr. Rashmika
-> GitHub Repository: github.com/Mrrashmika/QUEEN_ANJU_xPro
-Premium Version | Advanced Features | Secure & Reliable
-2025 QUEEN ANJU XPRO. All rights reserved.
+> 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 | 𝙰𝙳𝙼𝙸𝙽 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰
+> 𝚄𝙿𝙻𝙾𝙰𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰.
     `.trim(),
 //====================menu=================================
     MENUMSG: function (pushname, runtime,config) {
@@ -142,7 +139,7 @@ Twitter URL: ${q}
         )}MB / ${Math.round(require("os").totalmem / 1024 / 1024)}MB
 ┗━━━━━━━━━━━━━━━
 
-💬 ᴇɴᴏʏ ᴛʜᴇ 𝗯𝗼𝘁 ᴏ𝗳 𝚚𝚞𝚎𝚎𝚗 𝗮𝗻𝗷𝘂! ✨
+💬 𝚃𝙷𝙰𝚁𝚄𝚆𝙰 𝙱𝙾𝚃! ✨
         `.trim();
     },
 //====================movie======================================
@@ -154,7 +151,7 @@ Twitter URL: ${q}
     },
     SINHALASUB: function (title,imdb,date,country,runtime) {
         return `
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
             
 ✨  ${title}  
 ⭐ 𝗜𝗠𝗗𝗕 𝗥𝗮𝘁𝗶𝗻𝗴: ${imdb}  
@@ -165,7 +162,7 @@ Twitter URL: ${q}
     },
     CINESUBZ:function (title,imdbRate,date,country,duration) {
         return `
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
 
 ✨ ${title}  
 ⭐ 𝗜𝗠𝗗𝗕 𝗥𝗮𝘁𝗶𝗻𝗴:${imdbRate}  
@@ -176,14 +173,14 @@ Twitter URL: ${q}
     },
     CINETVSHOW: function (filename) {
         return `
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
 
 ✨ 🎞 TV SHOW:${filename}
         `.trim();
     },
     CINETVSHOWALLDL: function (title,releaseDate,network) {
         return `
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥 
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥 
 
 ✨TITLE: ${title}
 ✨RELESE DATA: ${releaseDate}
@@ -192,14 +189,14 @@ Twitter URL: ${q}
     },
     SIMNHALAMOVIE: function (title) {
         return`
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
 
 ✨ 🎥  ${title}     
         `.trim();
     },
     AWAMOVIE: function (title,releaseDate,country,language){
         return`
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
 
 ✨ 🎥  ${title}  
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲: ${releaseDate}  
@@ -209,7 +206,7 @@ Twitter URL: ${q}
     },
     ANIMEMOVIE: function (title,releaseDate,country,duration){
         return`
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
     
 ✨ ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${releaseDate}  
@@ -217,9 +214,9 @@ Twitter URL: ${q}
 ⏳ 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:${duration}  
         `.trim();
     },
-    BAISCOMOVIE: function (title,year,rating,duration){
+    BAISCMOVIE: function (title,year,rating,duration){
         return`
-🎬 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔 🎥  
+🎬 𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳 🎥  
     
 ✨ ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${year}  
@@ -229,7 +226,7 @@ Twitter URL: ${q}
     },
     ADULTMOVIE: function (title,rating,description){
         return`
-🎬 *𝗤𝗨𝗘𝗘𝗡 𝗔𝗡𝗝𝗨 𝗫ᴾᴿᴼ 𝗖𝗜𝗡𝗘𝗠𝗔* 🎥
+🎬 *𝙵𝙸𝙻𝙼 𝚆𝙾𝚁𝙻𝙳* 🎥
 ──────────────────
 ✨ *Title:* ${title}
 ⭐ *Rating:* ${rating}
